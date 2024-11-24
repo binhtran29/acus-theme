@@ -537,37 +537,37 @@ select {
         font-family: "SVN-Gilroy";
         font-weight: 400;
         font-style: normal;
-        src: url("/fonts/SVN-GilroyRegular.otf");
+        src: url("../fonts/SVN-GilroyRegular.otf");
     }
     @font-face {
         font-family: "SVN-Gilroy";
         font-weight: 400;
         font-style: italic;
-        src: url("/fonts/SVN-GilroyItalic.otf");
+        src: url("../fonts/SVN-GilroyItalic.otf");
     }
     @font-face {
         font-family: "SVN-Gilroy";
         font-weight: 500;
         font-style: normal;
-        src: url("/fonts/SVN-GilroyMedium.otf");
+        src: url("../fonts/SVN-GilroyMedium.otf");
     }
     @font-face {
         font-family: "SVN-Gilroy";
         font-weight: 500;
         font-style: italic;
-        src: url("/fonts/SVN-GilroyMediumItalic.otf");
+        src: url("../fonts/SVN-GilroyMediumItalic.otf");
     }
     @font-face {
         font-family: "SVN-Gilroy";
         font-weight: 700;
         font-style: normal;
-        src: url("/fonts/SVN-GilroyBold.otf");
+        src: url("../fonts/SVN-GilroyBold.otf");
     }
     @font-face {
         font-family: "SVN-Gilroy";
         font-weight: 700;
         font-style: italic;
-        src: url("/fonts/SVN-GilroyBoldItalic.otf");
+        src: url("../fonts/SVN-GilroyBoldItalic.otf");
     }
     body {
   font-family: SVN-Gilroy;
@@ -5219,7 +5219,7 @@ textarea.form-control.is-invalid {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-duration: 150ms;
+  transition-duration: 350ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-control:focus {
@@ -5302,7 +5302,7 @@ textarea.form-control.is-invalid {
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 .menu>li:not(.mega-box)>.menu-item:hover {
   --tw-text-opacity: 1;
@@ -5333,7 +5333,7 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.25rem;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 .menu>li:not(.mega-box) .submenu a:hover {
   --tw-bg-opacity: 1;
@@ -5361,7 +5361,7 @@ textarea.form-control.is-invalid {
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 .menu>li.mega-box>.menu-item:hover {
   --tw-text-opacity: 1;
@@ -5378,7 +5378,7 @@ textarea.form-control.is-invalid {
   color: rgb(75 85 99 / var(--tw-text-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 .menu>li.mega-box .ponsisub li a:hover {
   --tw-text-opacity: 0.6;
@@ -5415,7 +5415,7 @@ textarea.form-control.is-invalid {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
   transition-delay: 300ms;
   --tw-content: '';
   content: var(--tw-content);
@@ -5430,7 +5430,7 @@ textarea.form-control.is-invalid {
   opacity: 0;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
   transition-delay: 300ms;
 }
 .menu>li.mega-box >.submenu .mouseout {
@@ -5445,7 +5445,7 @@ textarea.form-control.is-invalid {
   opacity: 0;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
   transition-delay: 300ms;
   --tw-content: '';
   content: var(--tw-content);
@@ -5541,7 +5541,7 @@ body .swiper-button-next,  body .swiper-button-prev {
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 body .swiper-button-next:hover,  body .swiper-button-prev:hover {
   --tw-bg-opacity: 0.6;
@@ -5565,7 +5565,7 @@ body .slick-prev,  body .slick-next {
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 body .slick-prev:hover,  body .slick-next:hover {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity)) !important;
@@ -7495,17 +7495,17 @@ body .slick-custom-section .slick-prev::before, body .slick-custom-section  .sli
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 .duration-300 {
   transition-duration: 300ms;
@@ -7514,7 +7514,7 @@ body .slick-custom-section .slick-prev::before, body .slick-custom-section  .sli
   transition-duration: 200ms;
 }
 .duration-150 {
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 .duration-500 {
   transition-duration: 500ms;
@@ -7616,7 +7616,7 @@ body .slick-custom-section .slick-prev::before, body .slick-custom-section  .sli
   content: var(--tw-content);
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+  transition-duration: 350ms;
 }
 .before\:duration-500::before {
   content: var(--tw-content);

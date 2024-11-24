@@ -33,7 +33,7 @@
     <!-- <meta name="author" content="salvietnam.vn" />
     <meta name="copyright" content="salvietnam.vn - [hotro.salvietnam@gmail.com]" /> -->
     
-    <title>Acus Audio - Liên hệ</title>
+    <title>Acus Audio - Sản phẩm</title>
     <!-- <meta name="description" content="Dbacoustic cung cấp sản phẩm âm thanh karaoke chuyên nghiệp, Loa karaoke, Vang số, Đẩy công suất, micro, dbacoustic. Dbacoustic technology">
     <meta name="keywords" content="DBacoustic, Dbacoustic technology, loa db, đẩy db Loa karaoke, Vang số, Đẩy công suất Dbacoustic Peavey Cfaudio">
     <link rel="canonical" href="https://dbacoustic.vn"/>
@@ -78,17 +78,17 @@
             loadScripts();
             clearTimeout(loadScriptsTimer);
             userInteractionEvents.forEach(function (event) {
-                window.removeEventListener(event, triggerScriptLoader, {
-                    passive: true
-                });
+            window.removeEventListener(event, triggerScriptLoader, {
+                passive: true
+            });
             });
         }
         function loadScripts() {
             document.querySelectorAll("script[data-type='lazy']").forEach(function (elem) {
-                elem.setAttribute("src", elem.getAttribute("data-src"));
+            elem.setAttribute("src", elem.getAttribute("data-src"));
             });
             document.querySelectorAll("iframe[data-type='lazy']").forEach(function (elem) {
-                elem.setAttribute("src", elem.getAttribute("data-src"));
+            elem.setAttribute("src", elem.getAttribute("data-src"));
             });
         }
     </script>
@@ -108,7 +108,6 @@
     <div id="my-page" class="!bg-white">
     <div class="main_container overflow-x-hidden xl:overflow-x-visible" id="container_full">
         <div id="fb-root"></div>
-        
         <!-- Start header  -->
         <div id="header" class="[.home\_content_&]:fixed relative w-full z-50 [.fixed-top&]:fixed duration-500 transition-all">
             <div class="bg-primary [.fixed-top_&]:bg-opacity-50">
@@ -298,7 +297,7 @@
                 <div class="container max-w-screen-xl">
                     <ol class="inline-flex items-center space-x-1 md:space-x-3">
                         <li class="inline-flex items-center">
-                            <a class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" href="views/client/home.html">
+                            <a class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" href="https://dbacoustic.vn/">
                                 <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"> </path>
                                 </svg>
@@ -310,7 +309,7 @@
                                 <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
                                 </svg>
-                                <a class="inline-block ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white" href="views/client/contact.html">Liên hệ</a>
+                                <a class="inline-block ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white" href="https://dbacoustic.vn/gioi-thieu">Sản phẩm</a>
                             </div>
                         </li>
                     </ol>
@@ -324,77 +323,295 @@
 
         <!-- Start Main Content  -->
         <div class="main_content" id="hcontainer">
-            <div class="container max-w-screen-xl">
-                <div class="py-5 md:flex md:flex-wrap md:justify-between">
-                    <div class="flex-1 min-w-0 mb-5">
-                        <div class="content-main">
-                            <p>Công ty XYZ<br />
-                                <br />
-                                Địa chỉ: Số XX Lô XX, XYZ<br />
-                                <br />
-                                Hotline: 0123456789
-                            </p>
-
-                            <p>Trung Tâm Bảo Hành: 0123456789</p>
-
-                            <p>Email: hotro.support@gmail.com</p>
+            <div class="container max-w-screen-xl py-4">
+                <div class="">
+                    <div>
+                        <div class="text-2xl md:text-3xl text-primary text-center uppercase my-5 "> Sản phẩm </div>
+                        <div class="py-8 home-partner">
+                            <div class="flex flex-wrap justify-center">
+                                <div class="w-1/3 px-2 my-4 md:px-5 md:w-1/5">
+                                     <a href="views/client/product.html" class="inline-flex items-center justify-center w-full p-2 bg-white border [.active&]:shadow-3xl js-brand rounded-3xl border-secondary-500 hover:shadow-3xl">
+                                        <figure> 
+                                            <img src="https://dbacoustic.vn/public/thumbs/160x50x2/100_logo-db-final-1-CCq10yQNtY.png" class="w-full h-8 lg:h-[50px]" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </figure>
+                                    </a> 
+                                </div>
+                                <div class="w-1/3 px-2 my-4 md:px-5 md:w-1/5">
+                                     <a href="views/client/product.html" class="inline-flex items-center justify-center w-full p-2 bg-white border [.active&]:shadow-3xl js-brand rounded-3xl border-secondary-500 hover:shadow-3xl">
+                                        <figure> 
+                                            <img src="https://dbacoustic.vn/public/thumbs/160x50x2/100_z3861825438849-4e160ef8a2182e01e78ca8c493e1fc32-C3kuUuFzEe.png" class="w-full h-8 lg:h-[50px]" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </figure>
+                                    </a> 
+                                </div>
+                                <div class="w-1/3 px-2 my-4 md:px-5 md:w-1/5">
+                                     <a href="views/client/product.html" class="inline-flex items-center justify-center w-full p-2 bg-white border [.active&]:shadow-3xl js-brand rounded-3xl border-secondary-500 hover:shadow-3xl">
+                                        <figure> 
+                                            <img src="https://dbacoustic.vn/public/thumbs/160x50x2/100_peavey-logo-1-uR3TKYhJY6.png" class="w-full h-8 lg:h-[50px]" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </figure>
+                                    </a> 
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="flex-1 min-w-0 md:ml-4">
-                        <form method="POST" action="" enctype="multipart/form-data" id="FormContact" class="form-contact validation-contact" novalidate="novalidate"> 
-                            <!-- <input type="hidden" name="_token" value="8GzlO8FYnGsgkZVFtFW5cei2EiY7WLdT7CuH6IEB"> 
-                            <input type="hidden" name="_method" value="POST"> 
-                            <input type="hidden" name="type" id="type" value="lienhe" class="  form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"> -->
-                            <div class="flex flex-wrap justify-between">
-                                <div class="form-group flex-1 mb-3  even:ml-4" class="even:ml-4"> 
-                                    <label class="form-label inline-block mb-2 text-gray-700 " for="ten"> Họ và tên </label> 
-                                    <input type="text" name="ten" id="ten" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" required="true">
-                                    <p class="invalid-feedback"> Vui lòng nhập họ tên </p>
-                                </div>
-                                <div class="form-group flex-1 mb-3  even:ml-4" class="even:ml-4">
-                                    <label class="form-label inline-block mb-2 text-gray-700 " for="dienthoai"> Điện thoại </label> 
-                                    <input type="text" name="dienthoai" id="dienthoai" class="  form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" required="true">
-                                    <p class="invalid-feedback"> Vui lòng nhập điện thoại </p>
-                                </div>
-                            </div>
-                            <div class="flex flex-wrap justify-between">
-                                <div class="form-group flex-1 mb-3  even:ml-4" class="even:ml-4"> 
-                                    <label class="form-label inline-block mb-2 text-gray-700 " for="diachi"> Địa chỉ </label> 
-                                    <input type="text" name="diachi" id="diachi" class="  form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" required="true">
-                                    <p class="invalid-feedback"> Vui lòng nhập địa chỉ </p>
-                                </div>
-                                <div class="form-group flex-1 mb-3  even:ml-4" class="even:ml-4"> 
-                                    <label class="form-label inline-block mb-2 text-gray-700 " for="Email"> Email</label> 
-                                    <input type="text" name="email" id="email" class="  form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" required="true">
-                                    <p class="invalid-feedback"> Vui lòng nhập email </p>
-                                </div>
-                            </div>
-                            <div class="flex flex-wrap justify-between">
-                                <div class="form-group flex-1 mb-3  even:ml-4" class="even:ml-4"> 
-                                    <label class="form-label inline-block mb-2 text-gray-700 " for="tieude"> Chủ đề</label> 
-                                    <input type="text" name="tieude" id="tieude" class="  form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" required="true">
-                                    <p class="invalid-feedback"> Vui lòng nhập chủ đề </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-4 lg:gap-6 [body.view-list_&]:grid-cols-1 lg:[body.view-list_&]:grid-cols-1 mb-5" class="mb-5">
+                            <div class="group p-3 border-[#EAEAEA] border-2 ">
+                                <div data-aos="zoom-in">
+                                    <div class="relative mb-6">
+                                         <a href="views/client/product-detail.html" class="relative block overflow-hidden bg-no-repeat bg-cover border-white rounded-sm">
+                                            <img class="w-full mx-auto transition duration-300 ease-in-out group-hover:scale-110" src="https://dbacoustic.vn/public/thumbs/500x300x2/100_sl210-15sa-w14-bK2TPHskIU.png" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </a> 
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-xl lg:text-2xl mb-[6px]">
+                                             <a class="block font-bold text-center text-primary group-hover:text-secondary" href="views/client/product-detail.html">SL210-15SA</a>
+                                        </h3>
+                                        <div class="mb-4 text-base text-left [&>p]:before:content-[''] [&>p]:before:rounded-full [&>p]:before:w-2 [&>p]:before:h-2 [&>p]:before:block [&>p]:before:absolute [&>p]:pl-4 [&>p]:before:left-0 [&>p]:before:top-2 [&>p]:before:bg-black [&>p]:relative">
+                                            <p>
+                                                SL210-15SA là hệ thống âm thanh hoàn chỉnh với thiết kế hiện đại, công nghệ tiên tiến, mang lại trải nghiệm vượt trội. Là hệ thống PA đa năng, sản phẩm có thiết kế gọn nhẹ, dễ di chuyển và lắp đặt, kết hợp hoàn hảo giữa hiệu suất mạnh mẽ và tính thẩm mỹ.
+                                            </p>
+        
+                                            <p>
+                                                Đây là lựa chọn lý tưởng cho sân khấu vừa và nhỏ, phòng hội nghị, nhà thờ, quán bar và sự kiện ngoài trời.
+                                            </p>
+                                        </div>
+                                        <div class="flex justify-center">
+                                             <a class="inline-flex bg-white text-sm md:text-lg font-medium /shadow-3xl rounded-xl md:rounded-[50px] border border-secondary hover:border-secondary hover:bg-secondary text-secondary hover:text-white items-center md:py-2 md:px-5 py-1 px-3 transition-all [&amp;]:py-1 [&amp;]:px-4" class="[&]:py-1 [&]:px-4" href="views/client/product-detail.html"> 
+                                                Xem chi tiết 
+                                            </a> 
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap justify-between">
-                                <div class="form-group flex-1 mb-3  even:ml-4" class="even:ml-4"> 
-                                    <label class="form-label inline-block mb-2 text-gray-700 " for="noidung"> Nội dung </label> 
-                                    <textarea name="noidung" id="" rows="5" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" required="true"></textarea>
-                                    <p class="invalid-feedback"> Vui lòng nhập nội dung </p>
+                            <div class="group p-3 border-[#EAEAEA] border-2 ">
+                                <div data-aos="zoom-in">
+                                    <div class="relative mb-6">
+                                         <a href="views/client/product-detail.html" class="relative block overflow-hidden bg-no-repeat bg-cover border-white rounded-sm">
+                                            <img class="w-full mx-auto transition duration-300 ease-in-out group-hover:scale-110" src="https://dbacoustic.vn/public/thumbs/500x300x2/100_dpi-32002-w-1-P3w7pfHDG2.png" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </a> 
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-xl lg:text-2xl mb-[6px]">
+                                             <a class="block font-bold text-center text-primary group-hover:text-secondary" href="views/client/product-detail.html">DPi 3200:2</a>
+                                        </h3>
+                                        <div class="mb-4 text-base text-left [&>p]:before:content-[''] [&>p]:before:rounded-full [&>p]:before:w-2 [&>p]:before:h-2 [&>p]:before:block [&>p]:before:absolute [&>p]:pl-4 [&>p]:before:left-0 [&>p]:before:top-2 [&>p]:before:bg-black [&>p]:relative">
+                                            <p>
+                                                <strong>Đẩy công suất dBacoustic DPi 3200:2</strong> là bộ khuếch đại công suất
+                                                lớn được thiết kế đặc biệt để đáp ứng các yêu cầu khắt khe nhất trong các hệ
+                                                thống âm thanh chuyên nghiệp, sân khấu, hội trường và các sự kiện ngoài
+                                                trời.<br />
+                                                Với công suất vượt trội lên đến <strong>3200W x 2 kênh tại 8Ω</strong> và
+                                                <strong>5500W x 2 kênh tại 4Ω</strong>, cùng chế độ Bridge mạnh mẽ đạt
+                                                <strong>10000W tại 4Ω</strong>, DPi 3200:2 là lựa chọn hoàn hảo cho những ai cần
+                                                một thiết bị khuếch đại công suất cao, hiệu năng ổn định và chất lượng âm thanh
+                                                đỉnh cao.
+                                            </p>
+                                        </div>
+                                        <div class="flex justify-center">
+                                             <a class="inline-flex bg-white text-sm md:text-lg font-medium /shadow-3xl rounded-xl md:rounded-[50px] border border-secondary hover:border-secondary hover:bg-secondary text-secondary hover:text-white items-center md:py-2 md:px-5 py-1 px-3 transition-all [&amp;]:py-1 [&amp;]:px-4" class="[&]:py-1 [&]:px-4" href="views/client/product-detail.html"> 
+                                                Xem chi tiết
+                                            </a> 
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap justify-between">
-                                <div class="form-group flex-1 mb-3  even:ml-4" class="even:ml-4"> 
-                                    <label class="form-label inline-block mb-2 text-gray-700 " for="dinhkemtaptin"> Tập tin đính kèm </label> 
-                                    <input type="file" name="file" id="file" class="  form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none">
+                            <div class="group p-3 border-[#EAEAEA] border-2 ">
+                                <div data-aos="zoom-in">
+                                    <div class="relative mb-6">
+                                         <a href="views/client/product-detail.html" class="relative block overflow-hidden bg-no-repeat bg-cover border-white rounded-sm">
+                                            <img class="w-full mx-auto transition duration-300 ease-in-out group-hover:scale-110" src="https://dbacoustic.vn/public/thumbs/500x300x2/100_dpi-20004-w-1-yeBZYwe4Yk.png" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </a> 
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-xl lg:text-2xl mb-[6px]">
+                                             <a class="block font-bold text-center text-primary group-hover:text-secondary" href="views/client/product-detail.html">DPi 2000:4</a>
+                                        </h3>
+                                        <div class="mb-4 text-base text-left [&>p]:before:content-[''] [&>p]:before:rounded-full [&>p]:before:w-2 [&>p]:before:h-2 [&>p]:before:block [&>p]:before:absolute [&>p]:pl-4 [&>p]:before:left-0 [&>p]:before:top-2 [&>p]:before:bg-black [&>p]:relative">
+                                            <p><strong>Đẩy công suất dBacoustic DPi 2000:4</strong> là bộ khuếch đại công suất
+                                                cao sử dụng công nghệ Class D hiện đại, mang đến khả năng hoạt động mạnh mẽ lên
+                                                đến 2000W x 4 kênh tại trở kháng 8Ω và 3500W x 4 kênh tại 4Ω và bền bỉ, thích
+                                                hợp cho các hệ thống âm thanh chuyên nghiệp.<br />
+                                                Với thiết kế tinh xảo và tích hợp nhiều công nghệ bảo vệ tiên tiến, DPi 2000:4
+                                                không chỉ đáp ứng mà còn vượt qua các yêu cầu về chất lượng âm thanh, độ bền và
+                                                hiệu suất.</p>
+                                        </div>
+                                        <div class="flex justify-center">
+                                             <a class="inline-flex bg-white text-sm md:text-lg font-medium /shadow-3xl rounded-xl md:rounded-[50px] border border-secondary hover:border-secondary hover:bg-secondary text-secondary hover:text-white items-center md:py-2 md:px-5 py-1 px-3 transition-all [&amp;]:py-1 [&amp;]:px-4" class="[&]:py-1 [&]:px-4" href="views/client/product-detail.html"> 
+                                                Xem chi tiết
+                                            </a> 
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap justify-between">
-                                <div class="form-group flex-1 mb-3  even:ml-4" class="even:ml-4"> 
-                                    <input type="submit" class=" inline-block px-6 py-2.5 font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out btn-primary btn-primary" disabled="" class="btn-primary" name="submit-contact" value="Gửi liên hệ" />
+                            <div class="group p-3 border-[#EAEAEA] border-2 ">
+                                <div data-aos="zoom-in">
+                                    <div class="relative mb-6">
+                                         <a href="views/client/product-detail.html" class="relative block overflow-hidden bg-no-repeat bg-cover border-white rounded-sm">
+                                            <img class="w-full mx-auto transition duration-300 ease-in-out group-hover:scale-110" src="https://dbacoustic.vn/public/thumbs/500x300x2/100_db750-pro-1-NsFQrkD8dl.png" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </a> 
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-xl lg:text-2xl mb-[6px]">
+                                             <a class="block font-bold text-center text-primary group-hover:text-secondary" href="views/client/product-detail.html">DB750 PRO</a>
+                                        </h3>
+                                        <div class="mb-4 text-base text-left [&>p]:before:content-[''] [&>p]:before:rounded-full [&>p]:before:w-2 [&>p]:before:h-2 [&>p]:before:block [&>p]:before:absolute [&>p]:pl-4 [&>p]:before:left-0 [&>p]:before:top-2 [&>p]:before:bg-black [&>p]:relative">
+                                            <p>Micro không dây <strong>DBacoustic DB750 PRO</strong> là lựa chọn hoàn hảo cho
+                                                các không gian chuyên nghiệp như sân khấu, hội trường và phòng karaoke cao cấp.
+                                            </p>
+        
+                                            <p>DB750PRO sử dụng công nghệ UHF với khả năng tự động dò sóng sạch, thu sóng mạnh
+                                                mẽ, hoạt động ổn định trong phạm vi 150m và có thể lên tới 500m trong điều kiện
+                                                lý tưởng.</p>
+                                        </div>
+                                        <div class="flex justify-center">
+                                             <a class="inline-flex bg-white text-sm md:text-lg font-medium /shadow-3xl rounded-xl md:rounded-[50px] border border-secondary hover:border-secondary hover:bg-secondary text-secondary hover:text-white items-center md:py-2 md:px-5 py-1 px-3 transition-all [&amp;]:py-1 [&amp;]:px-4" class="[&]:py-1 [&]:px-4" href="views/client/product-detail.html"> 
+                                                Xem chi tiết 
+                                             </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </form>
+                            <div class="group p-3 border-[#EAEAEA] border-2 ">
+                                <div data-aos="zoom-in">
+                                    <div class="relative mb-6">
+                                         <a href="views/client/home.html" class="relative block overflow-hidden bg-no-repeat bg-cover border-white rounded-sm">
+                                            <img class="w-full mx-auto transition duration-300 ease-in-out group-hover:scale-110" src="https://dbacoustic.vn/public/thumbs/500x300x2/100_ak600-w-1-t6NksPVCDU.png" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </a> 
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-xl lg:text-2xl mb-[6px]">
+                                             <a class="block font-bold text-center text-primary group-hover:text-secondary" href="views/client/product-detail.html">AK600</a>
+                                        </h3>
+                                        <div class="mb-4 text-base text-left [&>p]:before:content-[''] [&>p]:before:rounded-full [&>p]:before:w-2 [&>p]:before:h-2 [&>p]:before:block [&>p]:before:absolute [&>p]:pl-4 [&>p]:before:left-0 [&>p]:before:top-2 [&>p]:before:bg-black [&>p]:relative">
+                                            <p>Digital Karaoke Power Amplifier Dbacoustic AK600 thiết kế gồm 2 kênh riêng biệt,
+                                                sử dụng mạch khuếch đại Class D cho công suất 600W/ CH ở chế độ 8ohms nên có khả
+                                                năng kéo được các cặp loa bass 25 - 30cm, AK600 là lựa chọn hoàn hảo cho các hệ
+                                                thống âm thanh karaoke.</p>
+                                        </div>
+                                        <div class="flex justify-center">
+                                             <a class="inline-flex bg-white text-sm md:text-lg font-medium /shadow-3xl rounded-xl md:rounded-[50px] border border-secondary hover:border-secondary hover:bg-secondary text-secondary hover:text-white items-center md:py-2 md:px-5 py-1 px-3 transition-all [&amp;]:py-1 [&amp;]:px-4" class="[&]:py-1 [&]:px-4" href="views/client/product-detail.html">
+                                                Xem chi tiết 
+                                             </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group p-3 border-[#EAEAEA] border-2 ">
+                                <div data-aos="zoom-in">
+                                    <div class="relative mb-6">
+                                         <a href="views/client/product-detail.html" class="relative block overflow-hidden bg-no-repeat bg-cover border-white rounded-sm">
+                                            <img class="w-full mx-auto transition duration-300 ease-in-out group-hover:scale-110" src="https://dbacoustic.vn/public/thumbs/500x300x2/100_xs218-web-1-ixOoN6SgRY.png" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </a> 
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-xl lg:text-2xl mb-[6px]">
+                                             <a class="block font-bold text-center text-primary group-hover:text-secondary" href="views/client/product-detail.html">DKX-218</a></h3>
+                                        <div class="mb-4 text-base text-left [&>p]:before:content-[''] [&>p]:before:rounded-full [&>p]:before:w-2 [&>p]:before:h-2 [&>p]:before:block [&>p]:before:absolute [&>p]:pl-4 [&>p]:before:left-0 [&>p]:before:top-2 [&>p]:before:bg-black [&>p]:relative">
+                                            <p><strong>Dbacoustic DKX-218</strong> là dòng loa sub kép chuyên nghiệp, được thiết
+                                                kế để mang đến hiệu suất âm thanh mạnh mẽ và uy lực cho các hệ thống âm thanh
+                                                lớn như sân khấu, sự kiện ngoài trời và phòng karaoke kinh doanh.<br />
+                                                Với thiết kế bền chắc, khả năng tái tạo âm trầm sâu lắng, loa DKX-218 là sự lựa
+                                                chọn hoàn hảo cho những ai đòi hỏi chất lượng âm thanh cao cấp.</p>
+        
+                                            <p><strong>Dbacoustic DKX-218</strong> được trang bị <strong>2 loa trầm 18
+                                                    inch</strong> với voice coil kích thước <strong>100mm </strong>Với công suất
+                                                liên tục <strong>2400W RMS</strong> và đạt đỉnh lên đến <strong>12000W</strong>,
+                                                mang đến khả năng tái tạo âm trầm mạnh mẽ, sâu lắng và cực kỳ uy lực.</p>
+                                        </div>
+                                        <div class="flex justify-center">
+                                             <a class="inline-flex bg-white text-sm md:text-lg font-medium /shadow-3xl rounded-xl md:rounded-[50px] border border-secondary hover:border-secondary hover:bg-secondary text-secondary hover:text-white items-center md:py-2 md:px-5 py-1 px-3 transition-all [&amp;]:py-1 [&amp;]:px-4" class="[&]:py-1 [&]:px-4" href="views/client/product-detail.html"> 
+                                                Xem chi tiết 
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group p-3 border-[#EAEAEA] border-2 ">
+                                <div data-aos="zoom-in">
+                                    <div class="relative mb-6">
+                                         <a href="views/client/product-detail.html" class="relative block overflow-hidden bg-no-repeat bg-cover border-white rounded-sm">
+                                            <img class="w-full mx-auto transition duration-300 ease-in-out group-hover:scale-110" src="https://dbacoustic.vn/public/thumbs/500x300x2/100_z5927504103993-653e225fe9e96a24995b8d50a42e2672-LwoSBF2amD.png" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </a> 
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-xl lg:text-2xl mb-[6px]">
+                                             <a class="block font-bold text-center text-primary group-hover:text-secondary" href="views/client/product-detail.html">DKX-12</a>
+                                        </h3>
+                                        <div class="mb-4 text-base text-left [&>p]:before:content-[''] [&>p]:before:rounded-full [&>p]:before:w-2 [&>p]:before:h-2 [&>p]:before:block [&>p]:before:absolute [&>p]:pl-4 [&>p]:before:left-0 [&>p]:before:top-2 [&>p]:before:bg-black [&>p]:relative">
+                                            <p><strong>Dbacoustic DKX-12</strong> là dòng loa karaoke cao cấp, được thiết kế để
+                                                mang lại chất lượng âm thanh tuyệt vời cho các phòng hát karaoke chuyên nghiệp,
+                                                quán bar hoặc hệ thống âm thanh gia đình cao cấp.<br />
+                                                Với công suất mạnh mẽ, khả năng tái tạo âm thanh chính xác và thiết kế bền bỉ,
+                                                DKX-12 là sự lựa chọn hoàn hảo cho những ai yêu cầu cao về chất lượng âm thanh.
+                                            </p>
+                                        </div>
+                                        <div class="flex justify-center">
+                                             <a class="inline-flex bg-white text-sm md:text-lg font-medium /shadow-3xl rounded-xl md:rounded-[50px] border border-secondary hover:border-secondary hover:bg-secondary text-secondary hover:text-white items-center md:py-2 md:px-5 py-1 px-3 transition-all [&amp;]:py-1 [&amp;]:px-4" class="[&]:py-1 [&]:px-4" href="views/client/product-detail.html"> 
+                                                Xem chi tiết
+                                            </a> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group p-3 border-[#EAEAEA] border-2 ">
+                                <div data-aos="zoom-in">
+                                    <div class="relative mb-6">
+                                         <a href="views/client/product-detail.html" class="relative block overflow-hidden bg-no-repeat bg-cover border-white rounded-sm">
+                                            <img class="w-full mx-auto transition duration-300 ease-in-out group-hover:scale-110" src="https://dbacoustic.vn/public/thumbs/500x300x2/100_mx600-HzAgeiZVxd.png" onerror="this.onerror=null; this.src='img/noimage.png';">
+                                        </a> 
+                                    </div>
+                                    <div class="text-center">
+                                        <h3 class="text-xl lg:text-2xl mb-[6px]">
+                                             <a class="block font-bold text-center text-primary group-hover:text-secondary" href="views/client/product-detail.html">MX600</a>
+                                        </h3>
+                                        <div class="mb-4 text-base text-left [&>p]:before:content-[''] [&>p]:before:rounded-full [&>p]:before:w-2 [&>p]:before:h-2 [&>p]:before:block [&>p]:before:absolute [&>p]:pl-4 [&>p]:before:left-0 [&>p]:before:top-2 [&>p]:before:bg-black [&>p]:relative">
+                                            <p><strong>Micro không dây Dbacoustic MX600</strong> không chỉ phù hợp cho dàn
+                                                karaoke gia đình mà còn đáp ứng hoàn hảo nhu cầu của các sân khấu, hội nghị và
+                                                phòng karaoke kinh doanh.</p>
+        
+                                            <p><strong>Dbacoustic MX600</strong> cho chất lượng âm thanh tuyệt vời với dải tần
+                                                số <strong>40Hz-18kHz</strong>, mang đến âm thanh trong trẻo, chi tiết và chân
+                                                thực. Micro này có khả năng <strong>chống hú và rít</strong> chuyên nghiệp nhờ
+                                                công nghệ cắt hú tự động, đảm bảo giọng hát rõ ràng, không bị nhiễu âm hay méo
+                                                tiếng.</p>
+                                        </div>
+                                        <div class="flex justify-center">
+                                             <a class="inline-flex bg-white text-sm md:text-lg font-medium /shadow-3xl rounded-xl md:rounded-[50px] border border-secondary hover:border-secondary hover:bg-secondary text-secondary hover:text-white items-center md:py-2 md:px-5 py-1 px-3 transition-all [&amp;]:py-1 [&amp;]:px-4" class="[&]:py-1 [&]:px-4" href="views/client/product-detail.html"> 
+                                                Xem chi tiết
+                                            </a> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 dev-center dev-paginator">
+                            <nav>
+                                <ul class="pagination">
+                                    <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Trước"> 
+                                        <span class="page-link" aria-hidden="true">&lsaquo;</span> 
+                                    </li>
+                                    <li class="page-item active" aria-current="page">
+                                        <span class="page-link">1</span>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="">3</a>
+                                    </li>
+                                    <li class="page-item disabled" aria-disabled="true">
+                                        <span class="page-link">...</span>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="">6</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="">7</a>
+                                    </li>
+                                    <li class="page-item">
+                                         <a class="page-link" href="" rel="next" aria-label="Kế tiếp &raquo;">&rsaquo;</a> 
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -681,6 +898,14 @@
     </script>
 
     <!-- Js Fanpage -->
+    <script>
+        $( document ).ready(function() {
+            var url = window.location.href;
+            $('.js-brand').removeClass('active')
+            // if ($(`.js-brand[href=${url}]`) == url) alert('msg');
+            $(`.js-brand[href='${url}']`).addClass('active')
+        });
+    </script>
 
     <script>
         $(document).ready(function() {
